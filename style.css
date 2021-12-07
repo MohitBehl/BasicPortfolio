@@ -2,8 +2,8 @@
 
 :root {
   --primary-color: #f59e0b;
-  --dark-grey : #6B7280;
-  --off-white : #F3F4F6;
+  --dark-grey: #6b7280;
+  --off-white: #f3f4f6;
 }
 
 body {
@@ -20,14 +20,13 @@ body {
   margin: auto;
 }
 
-
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
-hr{
-    margin: 2rem 0rem;
+hr {
+  margin: 2rem 0rem;
 }
 
 .primary-link {
@@ -44,55 +43,55 @@ hr{
 
 /* list */
 
-.non-bullet{
-    list-style: none;
+.non-bullet {
+  list-style: none;
 }
 
-.list-item-inline{
-    display: inline;
+.list-item-inline {
+  display: inline;
 
-    padding: 0rem 0.5rem;
+  padding: 0rem 0.5rem;
 }
 
 /* nav */
 
-.nav{
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
-.nav .link{
-    color: white;
+.nav .link {
+  color: white;
 }
 
-.nav-pills{
-    text-align: right;
+.nav-pills {
+  text-align: right;
 }
 
-.nav-brand{
-    font-weight: bold;
-    font-size: 1.1rem;
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
-.link-active{
-    font-weight: bold;
+.link-active {
+  font-weight: bold;
 }
 
 /* header */
 
-.hero{
+.hero {
   padding: 2rem;
 }
 
-.hero-image{
+.hero-image {
   max-width: 350px;
   display: block;
   margin: auto;
 }
 
-.hero-heading{
+.hero-heading {
   font-size: 3rem;
   color: var(--dark-grey);
   padding-top: 1rem;
@@ -103,19 +102,18 @@ hr{
 
 .section {
   padding: 2rem;
-  
 }
-.section h1{
+.section h1 {
   text-align: center;
 }
 
-.off-white{
+.off-white {
   background-color: var(--off-white);
 }
 
 /* footer */
 
-.footer{
+.footer {
   background-color: var(--primary-color);
 
   padding: 2rem;
@@ -123,11 +121,40 @@ hr{
   color: white;
   border-top-right-radius: 1rem;
 }
-
-.footer .link{
+.footer .footer-header {
+  font-weight: bold;
+}
+.footer .link {
   color: white;
 }
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+/* projects */
+.project-description{
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+/* blogs */
+
+.blog-container{
+  padding: 1rem;
+  height: 150px;
+}
+.blog-container a{
+  display: block;
+  margin-top: 1rem;
+  max-width: fit-content;
+}
+
+.blog-container .date{
+  padding-left: 1rem;
+  font-size: large;;
 }

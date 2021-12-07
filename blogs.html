@@ -4,60 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>home</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- navigation -->
     <nav class="nav container">
-      <div class="nav-brand">HOME | PORTFOLIO</div>
+      <div class="nav-brand">BLOGS | MY PORTFOLIO</div>
       <ul class="non-bullet nav-pills">
         <li class="list-item-inline">
-          <a class="link link-active" href="/">home</a>
+          <a class="link" href="/index.html">home</a>
         </li>
         <li class="list-item-inline">
           <a class="link" href="/projects.html">projects</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/blogs.html">blogs</a>
+          <a class="link link-active" href="/blogs.html">blogs</a>
         </li>
       </ul>
     </nav>
 
-    <!-- hero -->
+    <!-- Header -->
     <header class="hero">
-      <img class="hero-image" src="Images/PrimaryImage.svg" />
       <h1 class="hero-heading">
-        the
-        <span style="color: var(--primary-color)">web developer</span> project
+        MY
+        <span style="color: var(--primary-color)">BLOGS</span>
       </h1>
     </header>
 
-    <!-- Sections -->
-    <section class="section off-white">
-      <div class="container container-center">
-        <h1>Technologies</h1>
-        <p>I am familiar with html5 , css , git , github and web-hosting.</p>
-      </div>
-    </section>
+    <!-- List of blogs -->
+    <ul class="non-bullet blogs container container-center">
+      <li class="blog-list-item">
+        <section class="off-white">
+          <div class="blog-container">
+            <h1>ECONOMICS</h1>
+            <div class="date"><small>07-12-21</small></div>
+            <a href="/Blogs/blog1.html" class="link secondary-link">READ Blog</a>
+          </div>
+        </section>
+      </li>
+      <li>
+        <section>
+          <div class="blog-container">
+            <h1>TECH</h1>
+            <div class="date"><small>07-12-21</small></div>
+            <a href="/Blogs/blog2.html" class="link secondary-link">READ Blog</a>
+          </div>
+        </section>
+      </li>
+    </ul>
+    <!-- sections -->
 
-    <section class="section">
-      <div class="container container-center">
-        <h1>Projects</h1>
-        <p>PROJECTS DONE SO FAR</p>
-        <a href="/" class="link primary-link">See Projects</a>
-      </div>
-    </section>
-
-    <section class="section off-white">
-      <div class="container container-center">
-        <h1>BLOGS</h1>
-        <p>READ BLOGS</p>
-        <a href="/" class="link secondary-link">READ BLOGS</a>
-      </div>
-    </section>
-
-    <!-- Footer -->
+    <!-- footer -->
     <footer class="footer">
       <div class="footer-header"><strong>@Conect with me</strong></div>
       <ul class="social-links non-bullet">
