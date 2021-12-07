@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap");
+
+:root {
+  --primary-color: #f59e0b;
+  --dark-grey : #6B7280;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+}
+
+/* list */
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+
+    padding: 0rem 0.5rem;
+}
+
+/* nav */
+
+.nav{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav .link{
+    color: white;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+/* header */
+
+.hero{
+  padding: 2rem;
+}
+
+.hero-image{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero-heading{
+  font-size: 3rem;
+  color: var(--dark-grey);
+  padding-top: 1rem;
+}
