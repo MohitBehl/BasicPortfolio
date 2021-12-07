@@ -3,21 +3,23 @@
 :root {
   --primary-color: #f59e0b;
   --dark-grey : #6B7280;
+  --off-white : #F3F4F6;
 }
 
 body {
   font-family: "Dosis", sans-serif;
-}
-
-.container-center {
-  max-width: 600px;
-  margin: auto;
+  margin: 0px;
 }
 
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
 
 .link {
   text-decoration: none;
@@ -94,4 +96,38 @@ hr{
   font-size: 3rem;
   color: var(--dark-grey);
   padding-top: 1rem;
+  text-align: center;
+}
+
+/* section */
+
+.section {
+  padding: 2rem;
+  
+}
+.section h1{
+  text-align: center;
+}
+
+.off-white{
+  background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer{
+  background-color: var(--primary-color);
+
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link{
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
